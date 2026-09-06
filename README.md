@@ -20,6 +20,19 @@ Repositório destinado ao estudo e implementação prática de Padrões de Proje
 
 ---
 
+👥 Equipe e Organização
+Líder de Projeto & Dev Java: Danilo Carvalho Matos
+
+Dev PHP: Gustavo
+
+Pesquisa & UML (Factory Method): [Nome do Integrante]
+
+Pesquisa & UML (Builder): [Nome do Integrante]
+
+Redação & Formatação: [Nome do Integrante]
+
+📚 Referências - adicionar ainda
+
 ## 🛠️ Como Executar os Exemplos
 
 ### Executando o Factory Method (Java)
