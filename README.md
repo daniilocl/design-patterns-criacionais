@@ -27,3 +27,8 @@ Repositório destinado ao estudo e implementação prática de Padrões de Proje
 cd java-factory-method/src
 javac Main.java
 java Main
+
+### Executando o Builder (PHP)
+
+cd php-builder/src
+php index.php
