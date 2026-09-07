@@ -1,47 +1,28 @@
-# Padrões de Projeto Criacionais (Design Patterns) 🚀
+# Padrão de Projeto Builder em PHP
 
-Repositório destinado ao estudo e implementação prática de Padrões de Projeto Criacionais, desenvolvido para a disciplina de **Padrões de Projeto Orientados a Objetos** da **Universidade Mogi das Cruzes (UMC)**.
-
----
-
-## 📌 Padrões Implementados
-
-### 1. Factory Method (Java) ☕
-* **Categoria:** Criacional
-* **Linguagem:** Java
-* **Propósito:** Definir uma interface para criar um objeto, mas permitir que as subclasses decidam qual classe instanciar.
-* **Caminho do Código:** `/java-factory-method`
-
-### 2. Builder (PHP) 🐘
-* **Categoria:** Criacional
-* **Linguagem:** PHP 8.x
-* **Propósito:** Separar a construção de um objeto complexo da sua representação, de modo que o mesmo processo de construção possa criar diferentes representações.
-* **Caminho do Código:** `/php-builder`
+Este repositório contém uma implementação prática e modular do padrão de projeto criacional **Builder** (GoF) em PHP 8+, aplicado à construção de objetos complexos de infraestrutura (`Servidor`).
 
 ---
 
-👥 Equipe e Organização
-Líder de Projeto & Dev Java: Danilo Carvalho Matos
+## 📌 Sobre o Padrão
 
-Dev PHP: Gustavo
+O **Builder** tem como objetivo separar a construção de um objeto complexo da sua representação, permitindo que o mesmo processo de construção crie diferentes representações.
 
-Pesquisa & UML (Factory Method): [Nome do Integrante]
+### Benefícios no Projeto
+* **Fluent Interface**: Encadeamento de métodos (`return $this`) para uma leitura fluida do código.
+* **Encapsulamento Forte**: A classe `Servidor` protege suas propriedades com visibilidade `private`.
+* **Isolamento de Estado**: O método `reset()` garante que instâncias do Builder não vazem dados entre diferentes criações.
+* **Construção Parcial**: Permite instanciar objetos válidos sem a necessidade de passar parâmetros nulos ou padrões poluidos no construtor.
 
-Pesquisa & UML (Builder): [Nome do Integrante]
+---
 
-Redação & Formatação: [Nome do Integrante]
+## 📁 Estrutura do Projeto
 
-📚 Referências - adicionar ainda
-
-## 🛠️ Como Executar os Exemplos
-
-### Executando o Factory Method (Java)
-```bash
-cd java-factory-method/src
-javac Main.java
-java Main
-
-### Executando o Builder (PHP)
-
-cd php-builder/src
-php index.php
+```text
+php-builder/
+├── src/
+│   ├── Servidor.php                 # Entidade (Produto Final)
+│   ├── ServidorBuilderInterface.php # Contrato com as assinaturas de construção
+│   └── ServidorBuilder.php          # Implementação concreta do Builder
+├── index.php                        # Executável do cliente com cenários de teste
+└── README.md                        # Documentação do projeto
