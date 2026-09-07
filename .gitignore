@@ -1,25 +1,21 @@
-# IntelliJ IDEA / JetBrains
-.idea/
-*.iml
-*.iws
-*.ipr
-out/
-
-# Java / Compilação
+# Compiled class file
 *.class
 target/
 build/
 
-# Log files
+# Log file
 *.log
 
-# BlueJ files
-*.ctxt
+# PHP / Composer / IDEs
+/vendor/
+.vscode/
+.DS_Store
+Thumbs.db
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files
+# Package Files #
 *.jar
 *.war
 *.nar
@@ -32,8 +28,9 @@ build/
 hs_err_pid*
 replay_pid*
 
-# PHP / Composer / Web / Sistema
+# PHP / Composer / IDEs
 /vendor/
 .vscode/
+*.log
 .DS_Store
 Thumbs.db
