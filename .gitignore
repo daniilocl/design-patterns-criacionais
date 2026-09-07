@@ -1,7 +1,16 @@
-# Compiled class file
-*.class
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
 
-# Log file
+# Java / Compilação
+*.class
+target/
+build/
+
+# Log files
 *.log
 
 # BlueJ files
@@ -10,7 +19,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package Files
 *.jar
 *.war
 *.nar
@@ -19,13 +28,12 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Virtual machine crash logs
 hs_err_pid*
 replay_pid*
 
-# PHP / Composer / IDEs
+# PHP / Composer / Web / Sistema
 /vendor/
 .vscode/
-*.log
 .DS_Store
 Thumbs.db
