@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/design-patterns-criacionais.iml" filepath="$PROJECT_DIR$/.idea/design-patterns-criacionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-factory-method/java-factory-method.iml" filepath="$PROJECT_DIR$/java-factory-method/java-factory-method.iml" />
+    </modules>
+  </component>
+</project>

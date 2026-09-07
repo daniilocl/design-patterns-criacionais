@@ -9,10 +9,11 @@ class Servidor {
     ){}
     public function exibirConfiguracao(): void {
     echo "Servidor configurado com sucesso:\n";
-    echo "-Processador: {this->cpu}\n";
-    echo "-Memória RAM: {this->armazenamento}\n";
+    echo "-Processador: {$this->cpu}\n";
+    echo "-Memória RAM: {$this->ram}\n";
+    echo "- Armazenamento: {$this->armazenamento}\n";
     echo "- Fonte Redundante: " . ($this->fonteRedundante ? 'Sim' : 'Não') . "\n";
-    echo "-OS: {this->sistemaOperacional}\n";
+    echo "-OS: {$this->sistemaOperacional}\n";
     echo "---------------------------------------\n";
 }
 
