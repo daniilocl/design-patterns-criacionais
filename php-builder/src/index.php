@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/src/ServidorBuilder.php';
+require_once __DIR__ . '/ServidorBuilder.php';
 
 $builder = new ServidorBuilder();
 
