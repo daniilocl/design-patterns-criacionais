@@ -38,10 +38,13 @@ Redação & Formatação: [Nome do Integrante]
 ### Executando o Factory Method (Java)
 ```bash
 cd java-factory-method/src
-javac Main.java
+javac *.java
 java Main
+```
 
 ### Executando o Builder (PHP)
 
+```bash
 cd php-builder/src
 php index.php
+```
